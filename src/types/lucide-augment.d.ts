@@ -1,0 +1,56 @@
+
+declare module 'lucide-react' {
+  import * as React from 'react';
+  // Common icons used across the project (declared as any to avoid strict typing issues)
+  export const LayoutDashboard: React.ForwardRefExoticComponent<any>;
+  export const MessageSquare: React.ForwardRefExoticComponent<any>;
+  export const LogOut: React.ForwardRefExoticComponent<any>;
+  export const Menu: React.ForwardRefExoticComponent<any>;
+  export const X: React.ForwardRefExoticComponent<any>;
+  export const Bell: React.ForwardRefExoticComponent<any>;
+  export const User: React.ForwardRefExoticComponent<any>;
+  export const ExternalLink: React.ForwardRefExoticComponent<any>;
+  export const ArrowRight: React.ForwardRefExoticComponent<any>;
+  export const Clock: React.ForwardRefExoticComponent<any>;
+  export const GraduationCap: React.ForwardRefExoticComponent<any>;
+  export const Phone: React.ForwardRefExoticComponent<any>;
+  export const MapPin: React.ForwardRefExoticComponent<any>;
+  export const Facebook: React.ForwardRefExoticComponent<any>;
+  export const Instagram: React.ForwardRefExoticComponent<any>;
+  export const Twitter: React.ForwardRefExoticComponent<any>;
+  export const Youtube: React.ForwardRefExoticComponent<any>;
+  export const Target: React.ForwardRefExoticComponent<any>;
+  export const Eye: React.ForwardRefExoticComponent<any>;
+  export const Award: React.ForwardRefExoticComponent<any>;
+  export const CheckCircle2: React.ForwardRefExoticComponent<any>;
+  export const Monitor: React.ForwardRefExoticComponent<any>;
+  export const Users: React.ForwardRefExoticComponent<any>;
+  export const ShieldCheck: React.ForwardRefExoticComponent<any>;
+  export const ArrowLeft: React.ForwardRefExoticComponent<any>;
+  export const Share2: React.ForwardRefExoticComponent<any>;
+  export const Calendar: React.ForwardRefExoticComponent<any>;
+  export const Lock: React.ForwardRefExoticComponent<any>;
+  export const Mail: React.ForwardRefExoticComponent<any>;
+  export const AlertCircle: React.ForwardRefExoticComponent<any>;
+  export const EyeOff: React.ForwardRefExoticComponent<any>;
+  export const Send: React.ForwardRefExoticComponent<any>;
+  export const Globe: React.ForwardRefExoticComponent<any>;
+  export const BookOpen: React.ForwardRefExoticComponent<any>;
+  export const ChevronDown: React.ForwardRefExoticComponent<any>;
+  export const Quote: React.ForwardRefExoticComponent<any>;
+  export const ChevronLeft: React.ForwardRefExoticComponent<any>;
+  export const ChevronRight: React.ForwardRefExoticComponent<any>;
+  export const Star: React.ForwardRefExoticComponent<any>;
+  export const Sparkles: React.ForwardRefExoticComponent<any>;
+  export const Shield: React.ForwardRefExoticComponent<any>;
+  export const ArrowUpRight: React.ForwardRefExoticComponent<any>;
+  export const TrendingUp: React.ForwardRefExoticComponent<any>;
+  export const Search: React.ForwardRefExoticComponent<any>;
+  export const Trash2: React.ForwardRefExoticComponent<any>;
+  export const MoreVertical: React.ForwardRefExoticComponent<any>;
+  export const Filter: React.ForwardRefExoticComponent<any>;
+  export const CheckSquare: React.ForwardRefExoticComponent<any>;
+  export const Square: React.ForwardRefExoticComponent<any>;
+  export const MessageSquare2: React.ForwardRefExoticComponent<any>;
+}
+
