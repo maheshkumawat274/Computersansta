@@ -49,6 +49,12 @@ declare module 'lucide-react' {
   export const Trash2: React.ForwardRefExoticComponent<any>;
   export const MoreVertical: React.ForwardRefExoticComponent<any>;
   export const Filter: React.ForwardRefExoticComponent<any>;
+  export const ZoomIn: React.ForwardRefExoticComponent<any>;
+  export const Tag: React.ForwardRefExoticComponent<any>;
+  export const Grid3x3: React.ForwardRefExoticComponent<any>;
+  export const LayoutGrid: React.ForwardRefExoticComponent<any>;
+  export const Image: React.ForwardRefExoticComponent<any>;
+  export const MessageCircle: React.ForwardRefExoticComponent<any>;
   export const CheckSquare: React.ForwardRefExoticComponent<any>;
   export const Square: React.ForwardRefExoticComponent<any>;
   export const MessageSquare2: React.ForwardRefExoticComponent<any>;

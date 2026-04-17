@@ -28,7 +28,7 @@ export default function Home() {
       <ModeHighlight />
       <FeaturedCourses courses={featuredCourses} />
       <WhyChooseUs />
-      <Testimonials />
+      <GalleryPreview />
       <Section
   title="Quick Inquiry"
   subtitle="Get Started Today"
@@ -42,7 +42,9 @@ export default function Home() {
     responseTime="24 hours"
   />
 </Section>
-      <GalleryPreview />
+      
+      
+      <Testimonials />
       <ContactCTA />
     </div>
   );

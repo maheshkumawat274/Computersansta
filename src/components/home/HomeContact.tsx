@@ -15,7 +15,7 @@ const ContactSectionWithContent = ({
     <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 ${className}`}>
       
       {/* Left Side - Content */}
-      <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-slate-200">
+      <div className="bg-gradient-to-br from-slate-50 to-slate-100 p-4 md:p-10 rounded-[2.5rem] shadow-sm border border-slate-200">
         <div className="space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800">
             {title}
@@ -108,7 +108,7 @@ const ContactSectionWithContent = ({
       </div>
       
       {/* Right Side - Contact Form */}
-      <div className="bg-slate-50 p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-slate-100">
+      <div className="bg-slate-50 p-4 md:p-10 rounded-[2.5rem] shadow-sm border border-slate-100">
         <ContactForm compact={false} />
       </div>
       

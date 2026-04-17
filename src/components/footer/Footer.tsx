@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { GraduationCap, Phone, MapPin } from 'lucide-react';
+import { GraduationCap, Phone, MapPin, Mail,MessageCircle } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -51,18 +51,40 @@ export function Footer() {
 
           {/* Contact Details */}
           <div>
-            <h4 className="text-white font-bold mb-6">Contact Us</h4>
-            <ul className="space-y-4 text-sm">
-              <li className="flex items-start space-x-3">
-                <MapPin size={18} className="text-indigo-500 shrink-0 mt-0.5" />
-                <span>Uchana, Alewa, District Jind, Haryana</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Phone size={18} className="text-indigo-500 shrink-0" />
-                <span>+91 9306526532</span>
-              </li>
-            </ul>
-          </div>
+  <h4 className="text-white font-bold mb-6">Contact Us</h4>
+  <ul className="space-y-4 text-sm">
+    
+    <li className="flex items-start space-x-3">
+      <MapPin size={18} className="text-indigo-500 shrink-0 mt-0.5" />
+      <span>Uchana, Alewa, District Jind, Haryana</span>
+    </li>
+
+    <li className="flex items-center space-x-3">
+      <Phone size={18} className="text-indigo-500 shrink-0" />
+      <span>+91 9306526532</span>
+    </li>
+
+    <li className="flex items-center space-x-3">
+      <Mail size={18} className="text-indigo-500 shrink-0" />
+      <a href="mailto:sunilsunil39739@gmail.com" className="hover:underline">
+        sunilsunil39739@gmail.com
+      </a>
+    </li>
+
+    <li className="flex items-center space-x-3">
+      <MessageCircle size={18} className="text-indigo-500 shrink-0" />
+      <a 
+        href="https://wa.me/919306526532" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="hover:underline"
+      >
+        Chat on WhatsApp
+      </a>
+    </li>
+
+  </ul>
+</div>
         </div>
 
         <div className="pt-8 border-t border-slate-800 text-center text-xs">
